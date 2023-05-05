@@ -59,7 +59,7 @@
     font-size: 1.6rem;
     display: block;
     font-family: var(--title-font);
-    width: 60%;
+    width: 65%;
 }
 
 .product__price {
@@ -129,17 +129,19 @@
 .product__item {
     margin-bottom: 3rem;
 }
-.swiper-slide {
-    height: auto !important;
 
-}
-.swiper-wrapper {
-    padding-top: 1rem;
-}
 @media screen and (min-width: 1440px) { 
     .product__img-box {
         width: 100%;
         height: 30rem;
+    }
+    .products__list {
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+    }
+    .product__item {
+       width: 24%;
     }
 }
 
